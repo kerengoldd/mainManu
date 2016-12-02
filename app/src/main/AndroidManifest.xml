@@ -15,9 +15,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MainActivity2"
-                  android:label="calculator">
-    </activity>
+        <activity
+            android:name=".MainActivity2"
+            android:label="calculator" />
+        <activity android:name=".layout3_2" />
+        <activity android:name=".layout3_1" />
+        <activity android:name=".layout3_3"></activity>
     </application>
 
 </manifest>

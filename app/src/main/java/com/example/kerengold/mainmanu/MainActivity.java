@@ -35,7 +35,18 @@ public class MainActivity extends AppCompatActivity {
                     Intent c = new Intent(view.getContext(),MainActivity2.class);
                     startActivity(c);
                 }
-
+                if (i==1) {
+                    Intent c = new Intent(view.getContext(),layout3_1.class);
+                    startActivity(c);
+                }
+                if (i==2) {
+                    Intent c = new Intent(view.getContext(),layout3_2.class);
+                    startActivity(c);
+                }
+                if (i==3) {
+                    Intent c = new Intent(view.getContext(),layout3_3.class);
+                    startActivity(c);
+                }
             }
         });
 
