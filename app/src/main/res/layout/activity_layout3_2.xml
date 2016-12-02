@@ -108,6 +108,8 @@
         android:layout_marginStart="152dp"
         app:layout_constraintLeft_toLeftOf="parent" />
 
+
+
     <TextView
         android:text="@string/yellow"
         android:textColor="@android:color/black"
