@@ -1,3 +1,9 @@
 <resources>
-    <string name="app_name">mainManu</string>
+    <string name="app_name">Gal Amitai</string>
+    <string name="title_activity_homework4">homework4</string>
+    <string name="add_friend_to_list">Add Friend To List</string>
+    <string name="add_friend">Add Friend</string>
+    <string name="full_name">Full Name</string>
+    <string name="choose_date">Choose Date</string>
+    <string name="present_you_wish">Present you wish...</string>
 </resources>

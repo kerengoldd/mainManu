@@ -12,7 +12,7 @@ import android.widget.Toast;
 public class MainActivity extends AppCompatActivity {
 
      String[] lessons = {
-             "hm1","hm2","hm3"
+             "calculator","layout3_1","layout3_2","layout3_3","Birthday"
      };
 
     @Override
@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
                 String hm = (String) adapterView.getItemAtPosition(i);
-                Toast.makeText(view.getContext(),"jvgeh" +hm ,Toast.LENGTH_SHORT).show();
+                Toast.makeText(view.getContext(),"you press on  " +hm ,Toast.LENGTH_SHORT).show();
 
                 if (i==0){
                     Intent c = new Intent(view.getContext(),MainActivity2.class);
@@ -47,6 +47,12 @@ public class MainActivity extends AppCompatActivity {
                     Intent c = new Intent(view.getContext(),layout3_3.class);
                     startActivity(c);
                 }
+                if (i==4) {
+                    Intent c = new Intent(view.getContext(),Bday1.class);
+                    startActivity(c);
+                }
+
+
             }
         });
 
