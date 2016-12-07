@@ -8,7 +8,10 @@
         android:label="keren"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -24,7 +27,16 @@
         <activity android:name=".Bday1" />
         <activity android:name=".Bday1Listview" />
         <activity android:name=".BdayDBhelper" />
-        <activity android:name=".addBday"></activity>
+        <activity android:name=".addBday" />
+        <activity android:name=".MySettingsFragment" />
+        <activity
+            android:name=".SettingsActivity"
+            android:label="@string/title_activity_settings"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.kerengold.mainmanu.MainActivity" />
+        </activity>
     </application>
 
 </manifest>

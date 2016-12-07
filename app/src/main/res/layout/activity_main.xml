@@ -8,20 +8,47 @@
     android:background="@drawable/fnik"
     tools:context="com.example.kerengold.mainmanu.MainActivity">
 
+    <android.support.v7.widget.ActionBarContainer
+        android:layout_width="395dp"
+        android:layout_height="0dp"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="0dp">
+
+    </android.support.v7.widget.ActionBarContainer>
+
     <ListView
         android:id="@+id/lv"
         android:layout_width="0dp"
+        android:textSize="30sp"
+        android:textColor="#690593"
         android:layout_height="wrap_content"
         tools:layout_constraintTop_creator="1"
         tools:layout_constraintRight_creator="1"
         android:layout_marginStart="8dp"
         android:layout_marginEnd="8dp"
         app:layout_constraintRight_toRightOf="parent"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="48dp"
         tools:layout_constraintLeft_creator="1"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
-        app:layout_constraintHorizontal_bias="0.37" />
+        app:layout_constraintHorizontal_bias="0.0" />
+
+    <Button
+        android:text="setting"
+        android:layout_width="192dp"
+        android:layout_height="48dp"
+        tools:layout_editor_absoluteY="0dp"
+        android:id="@+id/button2"
+        style="@style/Widget.AppCompat.Button"
+        android:onClick="btnoc"
+        android:elevation="10dp"
+        android:layout_marginStart="16dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginLeft="16dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginRight="16dp" />
+
 </android.support.constraint.ConstraintLayout>
